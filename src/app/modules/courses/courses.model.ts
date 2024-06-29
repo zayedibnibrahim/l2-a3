@@ -1,5 +1,5 @@
 import { Schema, model } from 'mongoose'
-import { TCourse, TTags } from './course.interface'
+import { TCourse, TTags } from './courses.interface'
 
 const tagSchema = new Schema<TTags>({
   name: { type: String, required: true },
